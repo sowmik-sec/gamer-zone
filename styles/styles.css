@@ -42,3 +42,19 @@ nav {
 .fa-youtube {
   color: red;
 }
+
+@media screen and (max-width: 640px) {
+  nav {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .nav-gamer {
+    margin: 4px auto;
+  }
+  .nav-links > ul {
+    flex-direction: column;
+  }
+  .nav-links > ul li {
+    margin: 10px auto;
+  }
+}
