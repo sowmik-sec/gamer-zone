@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 240px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-gamer {
+  display: flex;
+  align-items: center;
+}
+.nav-gamer img {
+  width: 86px;
+}
+.gamer-g {
+  color: rgb(255, 66, 165);
+  margin-left: 20px;
+}
+.nav-links > ul {
+  display: flex;
+  align-items: center;
+}
+.nav-links > ul li {
+  margin-right: 32px;
+}
+.nav-links > ul li a {
+  text-decoration: none;
+  color: rgb(60, 53, 79);
+}
+.nav-links > ul li {
+  list-style: none;
+}
+.follow {
+  background-color: rgba(11, 2, 35, 0.1);
+  box-sizing: border-box;
+  padding: 17px 24px;
+  border-radius: 8px;
+}
+.fa-youtube {
+  color: red;
+}
