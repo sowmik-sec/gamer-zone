@@ -123,6 +123,10 @@ nav {
   color: transparent;
 }
 /* funny video section  */
+.online-content {
+  text-align: center;
+  margin-bottom: 48px;
+}
 .funny-text {
   color: rgb(249, 72, 178);
 }
