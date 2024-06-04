@@ -11,6 +11,9 @@ nav {
 .mr-1rem {
   margin-right: 1rem;
 }
+.text-3xl {
+  font-size: 3rem;
+}
 :root {
   --primary-color: rgb(255, 66, 165);
   --secondary-color: rgb(78, 197, 247);
@@ -70,9 +73,6 @@ nav {
 .img-banner {
   width: 73%;
 }
-.goat > h2 {
-  font-size: 3rem;
-}
 .goat h1 {
   font-size: 5.9rem;
   background: linear-gradient(to right, rgb(249, 72, 178), rgb(135, 88, 241));
@@ -116,12 +116,15 @@ nav {
   width: 35%;
 }
 .we-gamer {
-  font-size: 3rem;
   background: linear-gradient(to right, rgb(249, 72, 178), rgb(135, 88, 241));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+/* funny video section  */
+.funny-text {
+  color: rgb(249, 72, 178);
 }
 @media screen and (max-width: 640px) {
   nav {
