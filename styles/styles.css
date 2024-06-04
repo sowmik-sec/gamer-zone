@@ -8,6 +8,10 @@ nav {
   padding: 38px 240px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+:root {
+  --primary-color: rgb(255, 66, 165);
+  --secondary-color: rgb(78, 197, 247);
+}
 .nav-gamer {
   display: flex;
   align-items: center;
@@ -43,6 +47,45 @@ nav {
   color: red;
 }
 
+/* banner section  */
+.goat-container {
+  background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  padding: 147px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goat > h2 {
+  font-size: 3rem;
+}
+.goat h1 {
+  font-size: 5.9rem;
+  background: linear-gradient(to right, rgb(249, 72, 178), rgb(135, 88, 241));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.goat p > i {
+  margin-right: 13px;
+}
+.btn {
+  color: white;
+  padding: 21px 40px;
+  border-radius: 30px;
+  border: 0;
+}
+.btn-banner {
+  margin-top: 40px;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  margin-right: 16px;
+}
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
 @media screen and (max-width: 640px) {
   nav {
     flex-direction: column;
