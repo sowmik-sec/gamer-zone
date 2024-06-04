@@ -14,6 +14,9 @@ nav {
 .text-3xl {
   font-size: 3rem;
 }
+.text-xl {
+  font-size: 20px;
+}
 :root {
   --primary-color: rgb(255, 66, 165);
   --secondary-color: rgb(78, 197, 247);
@@ -129,6 +132,17 @@ nav {
 }
 .funny-text {
   color: rgb(249, 72, 178);
+}
+.online-game {
+  display: flex;
+  gap: 24px;
+  padding: 0 10%;
+}
+.img-online-game {
+  width: 100%;
+}
+.img-online-game img {
+  width: 100%;
 }
 @media screen and (max-width: 640px) {
   nav {
