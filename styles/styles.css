@@ -48,6 +48,10 @@ nav {
 }
 
 /* banner section  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
 .goat-container {
   background-image: url("../images/Group\ 14.png");
   background-repeat: no-repeat;
@@ -55,6 +59,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+.banner-image {
+  width: 100%;
 }
 .goat > h2 {
   font-size: 3rem;
