@@ -138,4 +138,19 @@ nav {
   .banner {
     flex-direction: column-reverse;
   }
+  .img-banner {
+    width: 100%;
+  }
+  .gamer-container {
+    flex-direction: column;
+  }
+  .img-gamer {
+    width: 80%;
+  }
+  .gamer-content {
+    width: 80%;
+  }
+  .gamer-text {
+    text-align: center;
+  }
 }
