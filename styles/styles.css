@@ -64,6 +64,9 @@ nav {
 .banner-image {
   width: 100%;
 }
+.img-banner {
+  width: 73%;
+}
 .goat > h2 {
   font-size: 3rem;
 }
