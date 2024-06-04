@@ -145,6 +145,59 @@ nav {
 .img-online-game img {
   width: 100%;
 }
+/* Style the image container */
+.img-online-game.hover-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style the image */
+.img-online-game.hover-effect img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Style the play button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white;
+  font-size: 2em; /* Adjust font size as needed */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  opacity: 0; /* Initially hide the button */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Style the "Watch Now" text */
+.watch-text {
+  position: absolute;
+  bottom: 150px; /* Adjust positioning as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center the text horizontally */
+  color: #ff42a5; /* Adjust text color */
+  font-size: 16px; /* Adjust font size as needed */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Style the image container on hover */
+.img-online-game.hover-effect:hover img {
+  opacity: 0.7; /* Reduce image opacity on hover */
+}
+
+/* Style elements on hover */
+.img-online-game.hover-effect:hover .play-button,
+.img-online-game.hover-effect:hover .watch-text {
+  opacity: 1; /* Show button and text on hover */
+}
+
 @media screen and (max-width: 640px) {
   nav {
     flex-direction: column;
