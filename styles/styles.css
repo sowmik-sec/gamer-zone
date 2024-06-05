@@ -292,6 +292,35 @@ nav {
   margin-right: 10px;
 }
 
+footer {
+  text-align: center;
+  color: white;
+  background-color: #0b0223;
+  padding: 5% 20%;
+}
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.links {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+}
+.socials {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+.socials i {
+  width: 40px;
+  height: 40px;
+}
+
 @media screen and (max-width: 640px) {
   nav {
     flex-direction: column;
