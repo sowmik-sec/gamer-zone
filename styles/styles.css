@@ -252,6 +252,7 @@ nav {
   background: var(--primary-color);
   padding: 5% 10%;
   color: white;
+  margin: 400px 0 120px;
 }
 .career {
   width: 100%;
@@ -314,5 +315,9 @@ nav {
   .img-my-talking {
     top: 200px;
     left: 50px;
+  }
+  .career-container {
+    flex-direction: column;
+    margin: 400px 0 200px;
   }
 }
