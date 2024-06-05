@@ -341,4 +341,8 @@ nav {
     flex-direction: column;
     margin: 400px 0 200px;
   }
+  .games-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
