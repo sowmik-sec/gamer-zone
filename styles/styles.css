@@ -244,6 +244,32 @@ nav {
   left: 80px;
   z-index: 10;
 }
+/* career section */
+.career-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+  padding: 5% 10%;
+  color: white;
+}
+.career {
+  width: 100%;
+}
+.career-track {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.btn-position {
+  color: var(--primary-color);
+}
+.group {
+  width: 100%;
+}
+.group img {
+  width: 100%;
+}
 @media screen and (max-width: 640px) {
   nav {
     flex-direction: column;
