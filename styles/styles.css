@@ -377,4 +377,7 @@ footer > div {
   .links {
     grid-template-columns: repeat(3, 1fr);
   }
+  .socials {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
