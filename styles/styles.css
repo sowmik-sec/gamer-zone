@@ -386,5 +386,13 @@ footer > div {
   }
   .socials {
     grid-template-columns: repeat(2, 1fr);
+    width: 250px;
+  }
+  .socials i {
+    margin: 0 auto;
+  }
+  .conditions {
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
   }
 }
