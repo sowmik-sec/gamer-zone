@@ -279,4 +279,14 @@ nav {
   .online-game {
     flex-direction: column;
   }
+  .play-container {
+    flex-direction: column;
+  }
+  .img-horse-rider {
+    top: 20px;
+  }
+  .img-my-talking {
+    top: 200px;
+    left: 50px;
+  }
 }
